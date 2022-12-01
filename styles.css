@@ -57,7 +57,7 @@ img{
 table{
     margin: auto; 
     font-family: 'Courier New', Courier, monospace; 
-    border:6px solid white; 
+    border:4px solid white; 
     justify-content: center;
     vertical-align: middle;
 }

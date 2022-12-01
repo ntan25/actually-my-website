@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(4, 7, 32, 0.9); 
+}
+
 h1{
     font-family: 'Courier New', Courier, monospace; 
 }
@@ -7,6 +11,7 @@ h1{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
+    color: white; 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -21,17 +26,19 @@ h1{
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(0, 55, 255); }
+    50% { border-color: white; }
   }
 h3{
     font-family: 'Courier New', Courier, monospace; 
+    color: white; 
 }
 h4{
     font-family: 'Courier New', Courier, monospace; 
     position: relative; 
     left: 50px;
+    color: white; 
 }
-p{
+p.saying{
     font-family: 'Courier New', Courier, monospace; 
     position: relative; 
     left: 100px;
@@ -46,7 +53,7 @@ img{
 table{
     margin: auto; 
     font-family: 'Courier New', Courier, monospace; 
-    border:1px solid black;
+    border:1px solid white; 
     justify-content: center;
     vertical-align: middle;
 }
